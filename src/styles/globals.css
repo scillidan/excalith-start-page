@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/noticia-text.css");
+
 :root {
 	--background-color: #121317;
 	--window-color: #1e212b;
@@ -43,7 +45,7 @@ body {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: "Noticia Text", monospace;
 }
 
 a,

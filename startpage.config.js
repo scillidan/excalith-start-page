@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "scillidan",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -72,34 +72,9 @@ const defaultConfig = {
 				url: "https://google.com/search?q={}"
 			},
 			{
-				alias: "d",
-				name: "DuckDuckGo Search",
-				url: "https://duckduckgo.com/?q={}"
-			},
-			{
-				alias: "b",
-				name: "Brave Search",
-				url: "https://search.brave.com/search?q={}"
-			},
-			{
 				alias: "gh",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
-			},
-			{
-				alias: "s",
-				name: "Stack Overflow Search",
-				url: "https://stackoverflow.com/search?q={}"
-			},
-			{
-				alias: "r",
-				name: "Subreddit Search",
-				url: "https://reddit.com/r/{}"
-			},
-			{
-				alias: "w",
-				name: "Wikipedia Search",
-				url: "https://en.wikipedia.org/wiki/{}"
 			}
 		]
 	},
@@ -111,25 +86,25 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "SMKA",
+						url: "https://scillidan.github.io/SMKA-page",
+						icon: "mdi:puzzle-outline"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "LOG",
+						url: "https://scillidan.github.io/LOG-page",
+						icon: "mdi:puzzle"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
+						name: "YAFA",
+						url: "https://scillidan.github.io/YAFA-site",
+						icon: "mdi:puzzle"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
-					}
+						name: "BYYA",
+						url: "https://scillidan.github.io/BYYA-site",
+						icon: "mdi:puzzle"
+					},
 				]
 			},
 			{
@@ -138,24 +113,39 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "GitHub",
-						url: "https://github.com",
-						icon: "mdi:github"
+						name: "README",
+						url: "https://github.com/scillidan/README-page",
+						icon: "mdi:inbox-multiple"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						name: "NOTION",
+						url: "https://github.com/scillidan/NOTION-table",
+						icon: "mdi:inbox-multiple"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						name: "_asset",
+						url: "https://github.com/scillidan/repo_asset/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "JS",
+						url: "https://github.com/scillidan/JS-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "PM2",
+						url: "https://github.com/scillidan/PM2-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "LIVELY",
+						url: "https://github.com/scillidan/LIVELY-resource/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "WALLPAP-ENG",
+						url: "https://github.com/scillidan/WALLPAP-ENG-resource/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
 					}
 				]
 			},
@@ -165,24 +155,19 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
+						name: "_archive",
+						url: "https://scillidan.github.io/repo_archive/index.md.html",
+						icon: "mdi:inbox-full"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "PIDAN",
+						url: "https://scillidan.github.io/PIDAN-journal",
+						icon: "mdi:inbox-full"
 					},
 					{
-						name: "Reddit",
-						url: "https://reddit.com",
-						icon: "mdi:reddit"
-					},
-					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "BYTEPATH",
+						url: "https://scillidan.github.io/BYTEPATH-blogs",
+						icon: "mdi:inbox-full"
 					}
 				]
 			},
@@ -192,81 +177,36 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "shields-with-icon",
+						url: "https://scillidan.github.io/shields-with-icon",
+						icon: "mdi:toolbox"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "github-search-rss",
+						url: "https://scillidan.github.io/github-search-rss",
+						icon: "mdi:toolbox"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
-					},
-					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "fonts",
+						url: "https://github.com/scillidan/fonts",
+						icon: "mdi:toolbox"
 					}
 				]
 			},
-			{
-				title: "Science",
-				color: "blue",
-				align: "left",
-				links: [
-					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
-					},
-					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
-					},
-					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
-					},
-					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
-					}
-				]
-			},
-			{
-				title: "Tech",
-				color: "yellow",
-				align: "left",
-				links: [
-					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
-					},
-					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
-					},
-					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
-					},
-					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
-					}
-				]
-			}
+			// {
+			// 	title: "Science",
+			// 	color: "blue",
+			// 	align: "left",
+			// 	links: [
+			// 	]
+			// },
+			// {
+			// 	title: "Tech",
+			// 	color: "yellow",
+			// 	align: "left",
+			// 	links: [
+			// 	]
+			// }
 		]
 	}
 }
