@@ -81,7 +81,7 @@ const defaultConfig = {
 	sections: {
 		list: [
 			{
-				title: "General",
+				title: "Site",
 				color: "green",
 				align: "left",
 				links: [
@@ -108,10 +108,15 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Dev",
+				title: "Sheet",
 				color: "magenta",
 				align: "left",
 				links: [
+					{
+						name: "_asset",
+						url: "https://github.com/scillidan/repo_asset/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
 					{
 						name: "README",
 						url: "https://github.com/scillidan/README-page",
@@ -120,11 +125,6 @@ const defaultConfig = {
 					{
 						name: "NOTION",
 						url: "https://github.com/scillidan/NOTION-table",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "_asset",
-						url: "https://github.com/scillidan/repo_asset/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
 					},
 					{
@@ -150,7 +150,7 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Social",
+				title: "Archive",
 				color: "violet",
 				align: "left",
 				links: [
@@ -159,6 +159,11 @@ const defaultConfig = {
 						url: "https://scillidan.github.io/repo_archive/index.md.html",
 						icon: "mdi:inbox-full"
 					},
+          {
+            "name":"Theka",
+            "url":"https://scillidan.github.io/Theka",
+            "icon":"mdi:inbox-full"
+          },
 					{
 						name: "PIDAN",
 						url: "https://scillidan.github.io/PIDAN-journal",
@@ -172,15 +177,10 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Tool",
 				color: "cyan",
 				align: "left",
 				links: [
-					{
-						name: "shields-with-icon",
-						url: "https://scillidan.github.io/shields-with-icon",
-						icon: "mdi:toolbox"
-					},
 					{
 						name: "github-search-rss",
 						url: "https://scillidan.github.io/github-search-rss",
@@ -189,6 +189,11 @@ const defaultConfig = {
 					{
 						name: "fonts",
 						url: "https://github.com/scillidan/fonts",
+						icon: "mdi:toolbox"
+					},
+					{
+						name: "shields-with-icon",
+						url: "https://scillidan.github.io/shields-with-icon",
 						icon: "mdi:toolbox"
 					}
 				]
