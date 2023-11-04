@@ -133,6 +133,11 @@ const defaultConfig = {
 						icon: "mdi:inbox-multiple"
 					},
 					{
+						name: "GUI",
+						url: "https://github.com/scillidan/GUI-source/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
 						name: "PM2",
 						url: "https://github.com/scillidan/PM2-demo/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
