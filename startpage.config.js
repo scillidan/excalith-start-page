@@ -132,9 +132,26 @@ const defaultConfig = {
 						url: "https://github.com/scillidan/JS-demo/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
 					},
+				]
+			},
+			{
+				title: "Sheet",
+				color: "magenta",
+				align: "left",
+				links: [
+					{
+						name: "SERVE",
+						url: "https://github.com/scillidan/SERVE-source/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
 					{
 						name: "GUI",
 						url: "https://github.com/scillidan/GUI-source/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "WEBUI",
+						url: "https://github.com/scillidan/WEBUI-source/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
 					},
 					{
