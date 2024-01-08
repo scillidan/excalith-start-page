@@ -86,8 +86,8 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "SMKA",
-						url: "https://scillidan.github.io/SMKA-page",
+						name: "SMOG",
+						url: "https://scillidan.github.io/SMOG-page",
 						icon: "mdi:puzzle-outline"
 					},
 					{
@@ -113,50 +113,8 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "_asset",
-						url: "https://github.com/scillidan/repo_asset/blob/main/table.md",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "README",
-						url: "https://github.com/scillidan/README-page",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "NOTION",
-						url: "https://github.com/scillidan/NOTION-table",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "JS",
-						url: "https://github.com/scillidan/JS-demo/blob/main/table.md",
-						icon: "mdi:inbox-multiple"
-					},
-				]
-			},
-			{
-				title: "Sheet",
-				color: "magenta",
-				align: "left",
-				links: [
-					{
-						name: "SERVE",
-						url: "https://github.com/scillidan/SERVE-source/blob/main/table.md",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "GUI",
-						url: "https://github.com/scillidan/GUI-source/blob/main/table.md",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "WEBUI",
-						url: "https://github.com/scillidan/WEBUI-source/blob/main/table.md",
-						icon: "mdi:inbox-multiple"
-					},
-					{
-						name: "PM2",
-						url: "https://github.com/scillidan/PM2-demo/blob/main/table.md",
+						name: "ASSET-demo",
+						url: "https://github.com/scillidan/ASSET-demo/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
 					},
 					{
@@ -172,13 +130,45 @@ const defaultConfig = {
 				]
 			},
 			{
+				title: "Sheet",
+				color: "magenta",
+				align: "left",
+				links: [
+					{
+						name: "JS",
+						url: "https://github.com/scillidan/JS-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "SERVE",
+						url: "https://github.com/scillidan/SERVE-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "GUI",
+						url: "https://github.com/scillidan/GUI-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "WEBUI",
+						url: "https://github.com/scillidan/WEBUI-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					},
+					{
+						name: "PM2",
+						url: "https://github.com/scillidan/PM2-demo/blob/main/table.md",
+						icon: "mdi:inbox-multiple"
+					}
+				]
+			},
+			{
 				title: "Archive",
 				color: "violet",
 				align: "left",
 				links: [
 					{
-						name: "_archive",
-						url: "https://scillidan.github.io/repo_archive/index.md.html",
+						name: "_page",
+						url: "https://scillidan.github.io/repo_page/index.md.html",
 						icon: "mdi:inbox-full"
 					},
           {
