@@ -113,6 +113,11 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
+						name: "JUTSU-docset",
+						url: "https://github.com/scillidan/JUTSU-docset",
+						icon: "mdi:inbox-multiple"
+					},
+					{
 						name: "ASSET-demo",
 						url: "https://github.com/scillidan/ASSET-demo/blob/main/table.md",
 						icon: "mdi:inbox-multiple"
