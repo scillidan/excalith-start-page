@@ -87,8 +87,8 @@ const defaultConfig = {
 				links: [
 					{
 						name: "SMOG",
-						url: "https://scillidan.github.io/SMOG-page",
-						icon: "mdi:puzzle-outline"
+						url: "https://scillidan.github.io/PAGES",
+						icon: "mdi:puzzle"
 					},
 					{
 						name: "LOG",
