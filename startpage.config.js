@@ -86,8 +86,8 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "SMOG",
-						url: "https://scillidan.github.io/PAGES",
+						name: "PAGES",
+						url: "https://vivliostyle.org/viewer/#src=https://scillidan.github.io/PAGES/&style=data:,@page{size:a5;}&zoom=1",
 						icon: "mdi:puzzle"
 					},
 					{
