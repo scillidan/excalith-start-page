@@ -152,7 +152,7 @@
 					},
 					{
 						"name": "LIVELY",
-						"url": "https://github.com/scillidan/LIVELY-resource/blob/main/table.md",
+						"url": "https://gist.github.com/scillidan/84b4783b85164c7f52f0eec90ae9167c",
 						"icon": "mdi:inbox-multiple"
 					},
 					{
@@ -163,10 +163,15 @@
 				]
 			},
 			{
-				"title": "My",
+				"title": "Other",
 				"color": "cyan",
 				"align": "left",
 				"links": [
+					{
+						"name": "Demo",
+						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
+						"icon": "mdi:inbox-full"
+					},
 					{
 						"name": "Note",
 						"url": "https://github.com/scillidan/My_Note",
