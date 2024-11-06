@@ -115,7 +115,7 @@
 				"links": [
 					{
 						"name": "PAGES",
-						"url": "https://gm-vivliostyle-js.vercel.app/#src=https://scillidan-pages.vercel.app/&style=data:,@page%7Bsize:a5;%7D&zoom=1",
+						"url": "https://gm-vivliostyle-js.vercel.app/#src=https://scillidan.github.io/PAGES-build/&style=data:,@page{size:a5;}&zoom=1&style=data:,/*%3Cviewer%3E*/%0A@page%20%7B%20size:%20a5;%20%7D%0A/*%3C/viewer%3E*/&f=epubcfi(/2!/4/4[toc])",
 						"icon": "mdi:puzzle"
 					},
 					{
