@@ -136,6 +136,33 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "Demo",
+						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
+						"icon": "mdi:inbox-multiple"
+					},
+					{
+						"name": "Note",
+						"url": "https://github.com/scillidan/My_Note",
+						"icon": "mdi:inbox-full"
+					},
+					{
+						"name": "Setup",
+						"url": "https://github.com/scillidan/My_Setup",
+						"icon": "mdi:inbox-full"
+					},
+					{
+						"name": "Table",
+						"url": "https://github.com/scillidan/My_Table",
+						"icon": "mdi:inbox-full"
+					}
+				]
+			},
+			{
+				"title": "Resource",
+				"color": "cyan",
+				"align": "left",
+				"links": [
+					{
 						"name": "Theka",
 						"url": "https://scillidan.github.io/Theka",
 						"icon": "mdi:inbox-full"
@@ -159,33 +186,6 @@
 						"name": "WALLPAP-ENG",
 						"url": "https://github.com/scillidan/WALLPAP-ENG-resource/blob/main/table.md",
 						"icon": "mdi:inbox-multiple"
-					}
-				]
-			},
-			{
-				"title": "Other",
-				"color": "cyan",
-				"align": "left",
-				"links": [
-					{
-						"name": "Demo",
-						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
-						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "Note",
-						"url": "https://github.com/scillidan/My_Note",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "Setup",
-						"url": "https://github.com/scillidan/My_Setup",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "Table",
-						"url": "https://github.com/scillidan/My_Table",
-						"icon": "mdi:inbox-full"
 					}
 				]
 			}
