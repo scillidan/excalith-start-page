@@ -163,11 +163,6 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Theka",
-						"url": "https://scillidan.github.io/Theka",
-						"icon": "mdi:inbox-full"
-					},
-					{
 						"name": "PIDAN",
 						"url": "https://scillidan.github.io/PIDAN-journal",
 						"icon": "mdi:inbox-full"
@@ -179,7 +174,7 @@
 					},
 					{
 						"name": "LIVELY",
-						"url": "https://gist.github.com/scillidan/84b4783b85164c7f52f0eec90ae9167c",
+						"url": "https://github.com/scillidan/LIVELY-resource/blob/main/table.md",
 						"icon": "mdi:inbox-multiple"
 					},
 					{
