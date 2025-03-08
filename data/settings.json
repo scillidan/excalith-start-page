@@ -114,6 +114,11 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "NOTES",
+						"url": "https://scillidan.github.io/notes",
+						"icon": "mdi:puzzle"
+					},
+					{
 						"name": "PAGES",
 						"url": "https://gm-vivliostyle-js.vercel.app/#src=https://scillidan.github.io/PAGES-build/&style=data:,@page{size:a5;}&zoom=1&style=data:,/*%3Cviewer%3E*/%0A@page%20%7B%20size:%20a5;%20%7D%0A/*%3C/viewer%3E*/&f=epubcfi(/2!/4/4[toc])",
 						"icon": "mdi:puzzle"
@@ -136,25 +141,25 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "NOTES",
+						"url": "https://scillidan.github.io/notes",
+						"icon": "mdi:inbox-multiple"
+					},
+					{
 						"name": "Demo",
 						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
 						"icon": "mdi:inbox-multiple"
 					},
 					{
-						"name": "Note",
-						"url": "https://github.com/scillidan/My_Note",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "Setup",
-						"url": "https://github.com/scillidan/My_Setup",
+						"name": "Database",
+						"url": "https://github.com/scillidan/database",
 						"icon": "mdi:inbox-full"
 					},
 					{
 						"name": "Table",
-						"url": "https://github.com/scillidan/My_Table",
+						"url": "https://github.com/scillidan/table",
 						"icon": "mdi:inbox-full"
-					}
+					},
 				]
 			},
 			{
@@ -162,6 +167,11 @@
 				"color": "cyan",
 				"align": "left",
 				"links": [
+					{
+						"name": "PODCAST",
+						"url": "https://scillidan.github.io/podcast_playlist",
+						"icon": "mdi:inbox-full"
+					},
 					{
 						"name": "PIDAN",
 						"url": "https://scillidan.github.io/PIDAN-journal",
