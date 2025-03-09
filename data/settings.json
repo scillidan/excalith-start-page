@@ -147,7 +147,7 @@
 					},
 					{
 						"name": "Database",
-						"url": "https://github.com/scillidan/database",
+						"url": "https://scillidan-database.vercel.app",
 						"icon": "mdi:inbox-full"
 					},
 					{
