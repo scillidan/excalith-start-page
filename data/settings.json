@@ -148,7 +148,7 @@
 					{
 						"name": "Database",
 						"url": "https://scillidan-database.vercel.app",
-						"icon": "mdi:inbox-full"
+						"icon": "mdi:inbox-multiple"
 					},
 					{
 						"name": "Table",
