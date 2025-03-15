@@ -146,8 +146,8 @@
 						"icon": "mdi:inbox-multiple"
 					},
 					{
-						"name": "Database",
-						"url": "https://scillidan-database.vercel.app",
+						"name": "Datasette",
+						"url": "https://scillidan-datasette.vercel.app",
 						"icon": "mdi:inbox-multiple"
 					},
 					{
