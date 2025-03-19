@@ -136,7 +136,7 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "NOTES",
+						"name": "notes",
 						"url": "https://scillidan.github.io/notes",
 						"icon": "mdi:inbox-multiple"
 					},
@@ -164,7 +164,7 @@
 				"links": [
 					{
 						"name": "PODCAST",
-						"url": "https://scillidan.github.io/podcast_playlist",
+						"url": "https://scillidan.github.io/playlist_podcast",
 						"icon": "mdi:inbox-full"
 					},
 					{
