@@ -141,19 +141,19 @@
 						"icon": "mdi:inbox-multiple"
 					},
 					{
-						"name": "Demo",
+						"name": "databases",
+						"url": "https://www.dolthub.com/repositories/scillidan",
+						"icon": "mdi:inbox-multiple"
+					},
+					{
+						"name": "demo",
 						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
 						"icon": "mdi:inbox-multiple"
 					},
 					{
-						"name": "Datasette",
-						"url": "https://scillidan-datasette.vercel.app",
+						"name": "dictionary",
+						"url": "https://github.com/scillidan/dictionary",
 						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "Table",
-						"url": "https://github.com/scillidan/table",
-						"icon": "mdi:inbox-full"
 					}
 				]
 			},
@@ -162,11 +162,6 @@
 				"color": "cyan",
 				"align": "left",
 				"links": [
-					{
-						"name": "PODCAST",
-						"url": "https://scillidan.github.io/playlist_podcast",
-						"icon": "mdi:inbox-full"
-					},
 					{
 						"name": "PIDAN",
 						"url": "https://scillidan.github.io/PIDAN-journal",
