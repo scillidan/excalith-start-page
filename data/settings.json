@@ -6,14 +6,14 @@
 		"windowColor": "#1e212b",
 		"textColor": "#e2e2e2",
 		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
+		"red": "#ee6677",
+		"green": "#228833",
+		"yellow": "#ccbb44",
+		"blue": "#4477aa",
+		"magenta": "#aa3377",
+		"cyan": "#66ccee",
 		"white": "#e2e2e2",
-		"gray": "#97989d"
+		"gray": "#bbbbbb"
 	},
 	"wallpaper": {
 		"url": "assets/default-wallpaper.svg",
@@ -138,12 +138,12 @@
 					{
 						"name": "notes",
 						"url": "https://scillidan.github.io/notes",
-						"icon": "mdi:inbox-multiple"
+						"icon": "mdi:inbox-full"
 					},
 					{
 						"name": "databases",
 						"url": "https://www.dolthub.com/repositories/scillidan",
-						"icon": "mdi:inbox-multiple"
+						"icon": "mdi:inbox-full"
 					},
 					{
 						"name": "demo",
@@ -153,7 +153,7 @@
 					{
 						"name": "dictionary",
 						"url": "https://github.com/scillidan/dictionary",
-						"icon": "mdi:inbox-multiple"
+						"icon": "mdi:inbox-full"
 					}
 				]
 			},
