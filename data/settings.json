@@ -131,8 +131,30 @@
 				]
 			},
 			{
-				"title": "Archive",
+				"title": "Vault",
 				"color": "magenta",
+				"align": "left",
+				"links": [
+					{
+						"name": "notes",
+						"url": "https://github.com/scillidan/cheatsheet",
+						"icon": "mdi:inbox-full"
+					},
+					{
+						"name": "dictionary",
+						"url": "https://github.com/scillidan/dictionary",
+						"icon": "mdi:inbox-full"
+					},
+					{
+						"name": "live",
+						"url": "https://github.com/scillidan/live",
+						"icon": "mdi:inbox-multiple"
+					}
+				]
+			},
+			{
+				"title": "Archive",
+				"color": "cyan",
 				"align": "left",
 				"links": [
 					{
@@ -141,25 +163,20 @@
 						"icon": "mdi:inbox-full"
 					},
 					{
-						"name": "databases",
-						"url": "https://www.dolthub.com/repositories/scillidan",
+						"name": "datasette-site",
+						"url": "https://github.com/scillidan/datasette-site",
 						"icon": "mdi:inbox-full"
 					},
 					{
 						"name": "demo",
 						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
 						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "dictionary",
-						"url": "https://github.com/scillidan/dictionary",
-						"icon": "mdi:inbox-full"
 					}
 				]
 			},
 			{
 				"title": "Resource",
-				"color": "cyan",
+				"color": "red",
 				"align": "left",
 				"links": [
 					{
