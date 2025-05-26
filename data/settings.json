@@ -136,7 +136,7 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "notes",
+						"name": "cheatsheet",
 						"url": "https://github.com/scillidan/cheatsheet",
 						"icon": "mdi:inbox-full"
 					},
