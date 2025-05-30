@@ -141,11 +141,6 @@
 						"icon": "mdi:inbox-full"
 					},
 					{
-						"name": "dictionary",
-						"url": "https://github.com/scillidan/dictionary",
-						"icon": "mdi:inbox-full"
-					},
-					{
 						"name": "live",
 						"url": "https://github.com/scillidan/live",
 						"icon": "mdi:inbox-multiple"
