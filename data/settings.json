@@ -131,68 +131,24 @@
 				]
 			},
 			{
-				"title": "Vault",
+				"title": "Archive",
 				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
-						"name": "cheatsheet",
-						"url": "https://github.com/scillidan/cheatsheet",
+						"name": "cheat",
+						"url": "https://github.com/scillidan/cheat",
 						"icon": "mdi:inbox-full"
 					},
 					{
 						"name": "live",
 						"url": "https://github.com/scillidan/live",
 						"icon": "mdi:inbox-multiple"
-					}
-				]
-			},
-			{
-				"title": "Archive",
-				"color": "cyan",
-				"align": "left",
-				"links": [
+					},
 					{
 						"name": "notes",
 						"url": "https://scillidan.github.io/notes",
 						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "datasette-site",
-						"url": "https://github.com/scillidan/datasette-site",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "demo",
-						"url": "https://gist.github.com/scillidan/31e14a4c9d2ea26068bbc9c2124bdb60",
-						"icon": "mdi:inbox-multiple"
-					}
-				]
-			},
-			{
-				"title": "Resource",
-				"color": "red",
-				"align": "left",
-				"links": [
-					{
-						"name": "PIDAN",
-						"url": "https://scillidan.github.io/PIDAN-journal",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "BYTEPATH",
-						"url": "https://scillidan.github.io/BYTEPATH-blogs",
-						"icon": "mdi:inbox-full"
-					},
-					{
-						"name": "LIVELY",
-						"url": "https://github.com/scillidan/LIVELY-resource/blob/main/table.md",
-						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "WALLPAP-ENG",
-						"url": "https://github.com/scillidan/WALLPAP-ENG-resource/blob/main/table.md",
-						"icon": "mdi:inbox-multiple"
 					}
 				]
 			}
