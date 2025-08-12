@@ -137,18 +137,13 @@
 				"links": [
 					{
 						"name": "cheat",
-						"url": "https://github.com/scillidan/cheat",
-						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "live",
-						"url": "https://github.com/scillidan/live",
-						"icon": "mdi:inbox-multiple"
-					},
-					{
-						"name": "notes",
-						"url": "https://scillidan.github.io/notes",
+						"url": "https://scillidan.github.io/cheat",
 						"icon": "mdi:inbox-full"
+					},
+					{
+						"name": "Vault",
+						"url": "https://github.com/scillidan/Vault",
+						"icon": "mdi:inbox-multiple"
 					}
 				]
 			}
