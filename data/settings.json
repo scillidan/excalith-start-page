@@ -137,7 +137,7 @@
 				"links": [
 					{
 						"name": "cheat",
-						"url": "https://scillidan.github.io/cheat",
+						"url": "https://scillidan-cheat.vercel.app",
 						"icon": "mdi:inbox-full"
 					},
 					{
