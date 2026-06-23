@@ -126,11 +126,6 @@
 					},
 					{
 						"name": "YAFA",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
-					},
-					{
-						"name": "GPT",
 						"url": "https://scillidan.github.io/YAFA-site",
 						"icon": "mdi:puzzle"
 					},
