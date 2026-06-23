@@ -30,14 +30,14 @@ jobs:
           cp -r data/assets/. public/assets/ 2>/dev/null || true
 
       - name: Build static export
-        id: build
-        run: |
-          REPO_NAME="${GITHUB_REPOSITORY#*/}"
-          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
-          EXPORT_MODE=true GH_BASE_PATH="/$REPO_NAME" NEXT_PUBLIC_STATIC_EXPORT=true yarn build
+        env:
+          EXPORT_MODE: "true"
+          GH_BASE_PATH: "/${{ github.event.repository.name }}"
+          NEXT_PUBLIC_STATIC_EXPORT: "true"
+        run: yarn build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out/${{ steps.build.outputs.repo_name }}
+          publish_dir: ./out
