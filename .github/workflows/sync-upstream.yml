@@ -1,0 +1,64 @@
+name: Sync Upstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/excalith/excalith-start-page
+          git fetch upstream
+
+      - name: Sync main with upstream
+        run: |
+          git checkout main
+          git rebase upstream/main
+          git push origin main
+
+      - name: Merge main into scillidan (preserve settings)
+        run: |
+          git checkout scillidan
+          SETTINGS=$(cat data/settings.json)
+          git merge main --no-commit --no-ff || true
+          echo "$SETTINGS" > data/settings.json
+          git add data/settings.json
+          git commit -m "chore: sync with upstream [skip ci]" || echo "Already up to date"
+          git push origin scillidan
+
+      - name: Copy assets to public
+        run: |
+          mkdir -p public/assets
+          cp -r data/assets/. public/assets/ 2>/dev/null || true
+
+      - name: Install dependencies
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: Build static export
+        id: build
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
+          EXPORT_MODE=true GH_BASE_PATH="/$REPO_NAME" NEXT_PUBLIC_STATIC_EXPORT=true yarn build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out/${{ steps.build.outputs.repo_name }}

@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [scillidan]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: scillidan
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          yarn install --frozen-lockfile
+
+      - name: Copy assets to public
+        run: |
+          mkdir -p public/assets
+          cp -r data/assets/. public/assets/ 2>/dev/null || true
+
+      - name: Build static export
+        id: build
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
+          EXPORT_MODE=true GH_BASE_PATH="/$REPO_NAME" NEXT_PUBLIC_STATIC_EXPORT=true yarn build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out/${{ steps.build.outputs.repo_name }}

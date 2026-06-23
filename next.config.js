@@ -5,10 +5,13 @@ const { PHASE_DEVELOPMENT_SERVER, PHASE_PRODUCTION_BUILD } = require("next/const
 const rulesToProcess = [/\.m?js/, /\.(js|cjs|mjs)$/].map(String)
 const dirToIgnore = /tools/
 
+const GH_BASE_PATH = process.env.GH_BASE_PATH || ""
+
 /** @type {import("next").NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	output: "standalone",
+	output: process.env.EXPORT_MODE === "true" ? "export" : "standalone",
+	basePath: process.env.EXPORT_MODE === "true" ? GH_BASE_PATH : "",
 	publicRuntimeConfig: {
 		version
 	},
@@ -65,7 +68,7 @@ module.exports = async (phase) => {
 		}
 	}
 
-	if (phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) {
+	if ((phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) && process.env.EXPORT_MODE !== "true") {
 		const withSerwist = (await import("@serwist/next")).default({
 			swSrc: "src/sw.js",
 			swDest: "public/sw.js",
