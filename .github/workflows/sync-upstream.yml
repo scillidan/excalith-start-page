@@ -20,6 +20,16 @@ jobs:
         with:
           node-version: 20
 
+      - name: Compute base path
+        id: paths
+        run: |
+          NAME="${GITHUB_REPOSITORY#*/}"
+          if [[ "$NAME" == *.github.io ]]; then
+            echo "base_path=" >> $GITHUB_OUTPUT
+          else
+            echo "base_path=/$NAME" >> $GITHUB_OUTPUT
+          fi
+
       - name: Fetch upstream
         run: |
           git remote add upstream https://github.com/excalith/excalith-start-page
@@ -53,9 +63,9 @@ jobs:
       - name: Build static export
         env:
           EXPORT_MODE: "true"
-          GH_BASE_PATH: "/${{ github.event.repository.name }}"
+          GH_BASE_PATH: ${{ steps.paths.outputs.base_path }}
           NEXT_PUBLIC_STATIC_EXPORT: "true"
-          NEXT_PUBLIC_BASE_PATH: "/${{ github.event.repository.name }}"
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.paths.outputs.base_path }}
         run: yarn build
 
       - name: Deploy to gh-pages
