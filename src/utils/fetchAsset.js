@@ -11,7 +11,8 @@ export async function fetchAsset(assetPath) {
 	const isStatic = process.env.NEXT_PUBLIC_STATIC_EXPORT === "true"
 
 	if (isStatic) {
-		return assetPath.startsWith("/") ? assetPath : `/${assetPath}`
+		const base = process.env.NEXT_PUBLIC_BASE_PATH || ""
+		return base + (assetPath.startsWith("/") ? assetPath : `/${assetPath}`)
 	}
 
 	const response = await fetch(`/api/getData?file=${assetPath}`)
