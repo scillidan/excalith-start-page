@@ -125,6 +125,11 @@
 						"icon": "mdi:puzzle"
 					},
 					{
+						"name": "marks",
+						"url": "https://scillidan.github.io/marks",
+						"icon": "mdi:puzzle"
+					},
+					{
 						"name": "YAFA",
 						"url": "https://scillidan.github.io/YAFA-site",
 						"icon": "mdi:puzzle"
